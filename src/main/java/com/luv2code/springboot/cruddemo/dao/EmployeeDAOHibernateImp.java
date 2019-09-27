@@ -15,6 +15,7 @@ import com.luv2code.springboot.cruddemo.entity.Employee;
 public class EmployeeDAOHibernateImp implements EmployeeDAO {
 	//comment added using eclipse
 	//comment added using git
+	//third comment added by eclipse
 	private EntityManager theEntityManager;
 	@Autowired
 	public EmployeeDAOHibernateImp(EntityManager theEntityManager){
