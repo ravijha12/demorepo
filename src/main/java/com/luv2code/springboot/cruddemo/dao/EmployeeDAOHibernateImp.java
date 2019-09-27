@@ -13,11 +13,7 @@ import com.luv2code.springboot.cruddemo.entity.Employee;
 
 @Repository
 public class EmployeeDAOHibernateImp implements EmployeeDAO {
-	//comment added using eclipse
-	//comment added using git
-	//third comment added by eclipse
-	//4th comment by eclipse
-	//5th comment added by me
+	//removed Faltu comment from code
 	private EntityManager theEntityManager;
 	@Autowired
 	public EmployeeDAOHibernateImp(EntityManager theEntityManager){
